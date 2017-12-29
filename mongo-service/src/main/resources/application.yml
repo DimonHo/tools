@@ -1,0 +1,7 @@
+server:
+  port: 10002
+  context-path: /mongo
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.1.80:27017/journal_source
